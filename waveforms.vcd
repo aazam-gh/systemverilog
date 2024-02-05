@@ -1,0 +1,104 @@
+$date
+	Mon Feb  5 20:54:54 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_sync_updown_counter $end
+$var wire 4 ! count [3:0] $end
+$var reg 1 " clk $end
+$var reg 1 # enable $end
+$var reg 1 $ load $end
+$var reg 4 % load_val [3:0] $end
+$var reg 1 & rst_n $end
+$var reg 1 ' up $end
+$scope module counter_inst $end
+$var wire 1 " clk $end
+$var wire 1 # enable $end
+$var wire 1 $ load $end
+$var wire 4 ( load_val [3:0] $end
+$var wire 1 & rst_n $end
+$var wire 1 ' up $end
+$var reg 4 ) count [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 )
+b0 (
+1'
+0&
+b0 %
+0$
+1#
+0"
+b0 !
+$end
+#5
+1"
+#10
+0"
+1&
+#15
+b1 !
+b1 )
+1"
+#20
+0"
+b1010 %
+b1010 (
+1$
+#25
+b1010 !
+b1010 )
+1"
+#30
+0"
+0$
+#35
+b1011 !
+b1011 )
+1"
+#40
+0"
+0'
+#45
+b1010 !
+b1010 )
+1"
+#50
+0"
+#55
+b1001 !
+b1001 )
+1"
+#60
+0"
+#65
+b1000 !
+b1000 )
+1"
+#70
+0"
+#75
+b111 !
+b111 )
+1"
+#80
+0"
+#85
+b110 !
+b110 )
+1"
+#90
+0"
+#95
+b101 !
+b101 )
+1"
+#100
+0"
